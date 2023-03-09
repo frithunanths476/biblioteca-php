@@ -15,4 +15,8 @@ $funciaonarios = new Funcionarios(
     25
 );
 
+$cliente->listarDados();
+
+$funciaonarios->listarDados();
+
 ?>
