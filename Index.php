@@ -2,6 +2,7 @@
 
 include("BiblioInterface.php");
 include("Book.php");
+include("Book2.php");
 include("Emprestimo.php");
 include("Pessoas.php");
 include("Livros.php");
