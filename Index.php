@@ -1,13 +1,14 @@
 <?php
 
 include("BiblioInterface.php");
+include("Book.php");
 include("Emprestimo.php");
-include("Livros.php");
 include("Pessoas.php");
+include("Livros.php");
 include("Clientes.php");
 include("Funcionarios.php");
 
-$book = new Livros(
+$titulo = new Livros(
     "É assim que começa",
     "Coolen Hoover"
 );
@@ -32,5 +33,9 @@ $funciaonarios = new Funcionarios(
 $cliente->listarDados();
 
 $funciaonarios->listarDados();
+
+$devolve->listarDados();
+
+$titulo->listarDados();
 
 ?>
