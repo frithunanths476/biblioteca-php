@@ -6,13 +6,13 @@ include("Clientes.php");
 include("Funcionarios.php");
 
 $cliente = new Clientes(
-    "Giovanna";
-    25;
-)
+    "Giovanna",
+    25
+);
 
 $funciaonarios = new Funcionarios(
-    "Matheus";
-    25;
-)
+    "Matheus",
+    25
+);
 
 ?>
